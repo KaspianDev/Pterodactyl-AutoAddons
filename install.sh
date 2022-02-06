@@ -110,7 +110,7 @@ bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons
 }
 
 Files_In_Editor() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons/${SCRIPT_VERSION}/addons/version1.x/Files_In_Editor/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/kacperleague9/Pterodactyl-AutoAddons/main/addons/version1.x/Files_In_Editor/build.sh)
 }
 
 
