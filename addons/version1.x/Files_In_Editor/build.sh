@@ -137,19 +137,12 @@ if [ -f "$CONFIG_FILE" ]; then
       echo -e "* ${GREEN}Compatible Version!${reset}"
       print_brake 23
       echo
-    elif [ "$PANEL_VERSION" == "canary" ]; then
+    else
       echo
       print_brake 23
       echo -e "* ${GREEN}Compatible Version!${reset}"
       print_brake 23
       echo
-    else
-      echo
-      print_brake 24
-      echo -e "* ${red}Incompatible Version!${reset}"
-      print_brake 24
-      echo
-      exit 1
   fi
 fi
 }
