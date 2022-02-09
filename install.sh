@@ -78,7 +78,7 @@ print_brake 70
 echo
 
 Backup() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons/${SCRIPT_VERSION}/backup.sh)
+bash <(curl -s https://raw.githubusercontent.com/kacperleague9/Pterodactyl-AutoAddons/main/backup.sh)
 }
 
 More_Buttons() {
