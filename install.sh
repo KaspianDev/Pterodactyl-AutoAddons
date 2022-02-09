@@ -106,7 +106,7 @@ bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons
 }
 
 Bigger_Console() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons/${SCRIPT_VERSION}/addons/version1.x/Bigger_Console/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/kacperleague9/Pterodactyl-AutoAddons/main/addons/version1.x/Bigger_Console/build.sh)
 }
 
 Files_In_Editor() {
