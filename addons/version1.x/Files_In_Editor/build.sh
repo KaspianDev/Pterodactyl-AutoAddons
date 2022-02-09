@@ -105,9 +105,9 @@ if [ -d "/var/www/pterodactyl" ]; then
   elif [ -d "/var/www/ptero" ]; then
     PTERO_INSTALL=true
     PTERO="/var/www/ptero"
-  elif [ -d "/home/kaspian/panel" ]; then
+  elif [ -d "/mnt/d/Pobrane/panel/panel" ]; then
     PTERO_INSTALL=true
-    PTERO="/home/kaspian/panel"
+    PTERO="/mnt/d/Pobrane/panel/panel"
   else
     PTERO_INSTALL=false
 fi
@@ -139,10 +139,11 @@ if [ -f "$CONFIG_FILE" ]; then
       echo
     else
       echo
-      print_brake 23
-      echo -e "* ${GREEN}Compatible Version!${reset}"
-      print_brake 23
+      print_brake 24
+      echo -e "* ${red}Incompatible Version!${reset}"
+      print_brake 24
       echo
+      exit 1
   fi
 fi
 }
