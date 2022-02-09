@@ -82,7 +82,7 @@ bash <(curl -s https://raw.githubusercontent.com/kacperleague9/Pterodactyl-AutoA
 }
 
 More_Buttons() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons/${SCRIPT_VERSION}/addons/version1.x/More_Buttons/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/kacperleague9/Pterodactyl-AutoAddons/main/addons/version1.x/More_Buttons/build.sh)
 }
 
 More_Server_Info() {
