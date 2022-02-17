@@ -94,9 +94,9 @@ if [ -d "/var/www/pterodactyl" ]; then
   elif [ -d "/var/www/panel" ]; then
     PTERO_INSTALL=true
     PTERO="/var/www/panel"
-  elif [ -d "/var/www/ptero" ]; then
+  elif [ -d "/mnt/d/Pobrane/pterofork/panel" ]; then
     PTERO_INSTALL=true
-    PTERO="/var/www/ptero"
+    PTERO="/mnt/d/Pobrane/pterofork/panel
   else
     PTERO_INSTALL=false
 fi
