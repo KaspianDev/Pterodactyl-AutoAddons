@@ -102,7 +102,7 @@ if [ -d "/var/www/pterodactyl" ]; then
   elif [ -d "/var/www/panel" ]; then
     PTERO_INSTALL=true
     PTERO="/var/www/panel"
-  elif [ -d "/mnt/d/Pobrane/pterofork/panel ]; then
+  elif [ -d "/mnt/d/Pobrane/pterofork/panel" ]; then
     PTERO_INSTALL=true
     PTERO="/mnt/d/Pobrane/pterofork/panel"
   else
